@@ -4,47 +4,84 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: black;
     background-size: cover;
     text-align: center;
+
+
 }
+
 #header {
     width: 100%;
     overflow: hidden;
-    background: #e63c35;
+
     padding: 5px 0px;
     position: fixed;
     z-index: 2;
 }
-#header h1{
-     float: left;
-    color: white;
+
+#header h1 {
+    float: left;
+    color: aliceblue;
     margin-right: 48px;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 1000px;
     overflow: hidden;
-    padding-top: 60px;
+    padding-top: 100px;
+
 }
-nav{
+
+.www {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 16px 0;
     overflow: hidden;
-    
+    border-bottom: 1px solid #eee;
+   margin-top: -100px;
+    padding-top:220px;
+
 }
-nav li{
+
+nav {
+    overflow: hidden;
+
+}
+
+.nav1 a {
+    float: left;
+    color: aliceblue;
+    margin-right: 48px;
+    font-size-adjust: 100px;
+    text-decoration: none;
+    font-size: 50px;
+    display: block;
+
+}
+.nav1{
+    float: left;
+}
+nav li {
     list-style-type: none;
     float: left;
     margin-top: 2px;
 }
 
-nav a{
+.nav2 a {
     font-size: 16px;
     display: block;
     text-decoration: none;
     color: aliceblue;
-    margin: 14px 16px 0px;
-    
+    margin: 40px 16px 0px;
+    transition: 0.3s;
 }
+
+.nav2 a:hover {
+    border-bottom: 3px solid #f9f9f9;
+}
+
 .box {
     float: left;
 }
@@ -53,17 +90,68 @@ div {
     margin: 0 auto;
 }
 
-img {
+.img1 {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin-left: 100px;
+}
+
+.img2 {
     float: left;
-    
+    width: 500px;
+    height: 386px;
+    object-fit: contain;
+    margin-left: 210px
 }
+
+
+
 .top-title {
-    font-size: 60px;
+    font-size: 40px;
 }
-.box2{
-    float:right;
+
+.box2 {
+    float: right;
 }
-.img2{
-    width: 550px;
-    height: 350px;
+
+.box3 {
+    display: inline;
+}
+
+.container2 {
+    padding: 16px 0;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+
+}
+
+
+.box3 {
+    display: inline-block;
+    margin-bottom: 100px;
+
+}
+
+.img3 {
+    padding-right: 10px;
+    width: 319px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.container3 {
+    clear: both;
+}
+
+h1{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    color: aliceblue;
 }
