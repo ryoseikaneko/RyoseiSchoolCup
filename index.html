@@ -157,12 +157,12 @@
             </div>
         </div>
         <div class="main3">
-        <div class="content5">
-           
-            <h1 id="top-title" class="inviewfadeInUp">まとめ</h1>
-            <p id="p1" class="inviewfadeInUp"><br>このように、開発への集中力を高められる方法を紹介しましたが、結局は、プログラミングに限らず、全てにおいて、やるかやらないかは自分の気持ち次第だと思います。目的意識はあるのだけど、どのように手をつければいいかわ分からない、どのようにすれば作業を効率化できるのか分からない。そんなときにこのページを見返して見てください。</p>
-            <img src="images/" alt="">
-        </div>
+            <div class="content5">
+
+                <h1 id="top-title" class="inviewfadeInUp">まとめ</h1>
+                <p id="p1" class="inviewfadeInUp"><br>このように、開発への集中力を高められる方法を紹介しましたが、結局は、プログラミングに限らず、全てにおいて、やるかやらないかは自分の気持ち次第だと思います。目的意識はあるのだけど、どのように手をつければいいかわ分からない、どのようにすれば作業を効率化できるのか分からない。そんなときにこのページを見返して見てください。</p>
+                <img src="images/" alt="">
+            </div>
 
         </div>
 
@@ -184,14 +184,15 @@
             });
         });
 
-        $('.inviewfadeInUp').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-            if (isInView) {
-                $(this).stop().addClass('fadeInUp');
-            } else {
-                $(this).stop().removeClass('fadeInUp');
-            }
+        $(function() {
+            $('.inviewfadeInUp').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+                if (isInView) {
+                    $(this).stop().addClass('fadeInUp');
+                } else {
+                    $(this).stop().removeClass('fadeInUp');
+                }
+            });
         });
-
     </script>
 </body>
 
