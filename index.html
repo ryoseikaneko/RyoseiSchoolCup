@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <title>lifeistech</title>
     <link rel="stylesheet" href="style.css">
+    <!-- js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.inview.min.js"></script>
 </head>
 
 <body>
     <div id="header">
         <div class="container">
-            <nav class="nav1">
-                <ul>
-                    <li><a class="nav1" href="https://life-is-tech.com">Life is Tech</a></li>
-                </ul>
-            </nav>
+            <img class="img0" src="images/img.png" alt="">
+
             <nav class="nav2">
                 <ul>
 
                     <li><a href="./index.html">Top</a></li>
-                    <li><a href="https://www.apple.com/jp/">Apple</a></li>
+                    <li><a class="nav1" href="https://life-is-tech.com">Life is Tech</a></li>
                     <li><a href="https://www.google.co.jp/">Google</a></li>
                     <li><a href="https://ja-jp.facebook.com/">FaceBook</a></li>
                 </ul>
@@ -27,76 +27,172 @@
         </div>
 
     </div>
-    <div class="www">
+    <div class="main">
+        <div class="content1">
 
-        <div　class="content">
             <div class="box">
-                <h1 class="top-title">
-                    Life is Tech
+                <h1 id="top-title" class="inviewfadeInUp">
+                    Life is Techでの開発
                 </h1>
-                <p>
-                <br>life is techの公式サイトには、<br>life is techでは<br>プログラミングを基礎から初めて、<br>一年でストアリリースできるまでに上達する。<br>と書いてあります。しかし、<br>一年でそこまで上達するには、<br>ただ通うだけでなく<br>積極的に活動することが大切です。<br>
+                <p id="p1" class="inviewfadeInUp">
+                    <br>life is techの公式サイトには、<br>life is techでは<br>プログラミングを基礎から初めて、<br>一年でストアリリースできるまでに上達する。<br>と書いてあります。しかし、<br>一年でそこまで上達するには、<br>ただ通うだけでなく<br>積極的に活動することが大切だと思います。<br>
 
                 </p>
 
             </div>
-            <img class="img1" src="images/logo-square.png" alt="">
+            <img id="img1" class="inviewfadeInUp" src="images/img2.png" alt="">
+
+
+        </div>
+
+        <div class="content2">
+            <img id="img2" class="inviewfadeInUp" src="images/img3.jpg" alt="">
+
+
+            <h1 id=top-title class="inviewfadeInUp">効率よく開発をするには</h1>
+
+            <p id="p1" class="inviewfadeInUp">
+                <br>Life is Techで、<br>効率的に楽しく開発して、<br>良いアプリ、サイト、ゲームを作るには、<br>どのように計画を立てて、<br>どのように休憩をすれば良いのか、<br>このページから学ぶことができます。
+            </p>
+
+        </div>
+    </div>
+    <div class="main2">
+        <div class="content3">
+            <h1 id="title3" class="inviewfadeInUp">Plan</h1>
+            <h2 id="title6" class="inviewfadeInUp">何をするにも計画を立てること、準備をすることが大切。<br>でも、計画だけ立てて、実際やらない。ってならないようにしましょう。</h2>
+            <div class="box3">
+                <img id="img3" class="inviewfadeInUp" src="images/smartphoneIMGL0018_TP_V.jpg" alt="">
+                <h1 class="title5">整理する
+                </h1>
+                <div class="content">
+                    <div>
+
+                        <p class="p2">
+                            プログラミングに限らず、<br>勉強などをしている時に、<br>机の上に関係のない物が山積していたら、<br>集中もできないし、<br>スマホなどがあれば<br>つい触ってしまったりしますよね。<br>片付けがめんどくさいなと思っても、<br>結果的には早々に整理した方が楽<br>ということは多々あります。<br>開発を始める前に、数分時間を取るだけで、<br>その後の効率が大きく変わるかもしれません。
+                        </p>
+                    </div>
+
+                    <div class="morebutton" class="inviewfadeInUp">check</div>
+
+
+                </div>
+            </div>
+
+
+            <div class="box3">
+                <img id="img3" class="inviewfadeInUp" src="images/PPG_anteli-kunatokei_TP_V.jpg" alt="">
+                <h1 class="title5">時間で区切る</h1>
+                <div class="content">
+                    <div>
+                        <p class="p2">
+                            終わりが見えないような<br>開発をしている時ならば、<br>その量を想像するだけで<br>心が折れてしまいそうになることがあります。<br>細かい時間を見つけて、<br>少しずつ進めれば良いのですが、<br>それができる人は限られているでしょう。<br>そんな時は、時間でノルマを設定し<br>その間だけでも集中して開発をすれば、<br>順調になるのではないでしょうか。
+
+                        </p>
+                    </div>
+                    <div class="morebutton" class="inviewfadeInUp">check</div>
+                </div>
+            </div>
+
+
+
+            <div class="box3">
+                <img id="img3" class="inviewfadeInUp" src="images/cc955eda960c7643f6ecc48d3b626b29_t.jpeg" alt="">
+                <h1 class="title5">計画を立てる</h1>
+                <div class="content">
+                    <div>
+                        <p class="p2">
+                            無計画に制作を進めても、<br>途中でやることがわからなくなるか、<br>もしくは、途中で計画を立てようとして、<br>それだけで疲れてしまいます。<br>前々から長期的な計画を立て、<br>実際にそれをやる時には、<br>前日などに準備をしてから<br>作業をしたほうが捗ります。
+                        </p>
+                    </div>
+                    <div class="morebutton" class="inviewfadeInUp">check</div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="content4">
+            <h1 id="title4" class="inviewfadeInUp">Break Time</h1>
+            <h2 id="title7" class="inviewfadeInUp">開発をたくさんするのも良いですが、時にはリラックスして、<br>休憩したり遊んだりするのも良いでしょう。</h2>
+            <div class="box4">
+                <img id="img4" class="inviewfadeInUp" src="images/B102_oyatunojikan_TP_V.jpg" alt="">
+                <h1 class="title5">おやつ</h1>
+                <div class="content">
+                    <div>
+                        <p class="p2">
+                            おやつは万人に愛される<br>人々の癒しです。<br> また、甘いおやつの殆どには
+                            <br>砂糖が含まれています。<br>砂糖は素早く体内に吸収され、<br>血糖値を上げる働きがあります。<br>また砂糖はの神経に直接働きかけ、<br>リラックスさせる効果もあります。<br>このように、<br>おやつのもたらす良い影響は、<br>科学的に証明されていますが、<br>食べ過ぎには注意してください。
+                        </p>
+                    </div>
+                    <div class="morebutton" class="inviewfadeInUp">check</div>
+                </div>
+            </div>
+            <div class="box4">
+
+                <img id="img4" class="inviewfadeInUp" src="images/79e452da8d3a9ccaf899814db5de9b76_t.jpeg" alt="">
+                <h1 class="title5">昼寝</h1>
+                <div class="content">
+
+                    <div>
+                        <p class="p2">
+                            一日中学校にいて、<br>目も体も疲れている時に<br>開発をすれば,<br>バテてしまうことがあります。<br>そんな時は寝るに限ります。<br>昼寝の時間はどれくらいとればいいのか。<br>人間には睡眠サイクルというものが存在します。<br>それによると、昼寝は、10分から20分、<br>もしくは、<br>60分から90分が最適とされています。<br>適切に昼寝をして、<br>リフレッシュしましょう。
+                        </p>
+                    </div>
+                    <div class="morebutton" class="inviewfadeInUp">check</div>
+                </div>
+            </div>
+            <div class="box4">
+                <img id="img4" class="inviewfadeInUp" src="images/2df1d8f01ec93e1a55b0782d3ff0f3f6_t.jpeg" alt="">
+                <h1 class="title5">音楽</h1>
+                <div class="content">
+                    <div>
+                        <p class="p2">
+                            音楽は、リラックスの手段としては、<br>非常によく言われます。<br>実際に音楽にはメンタルケア、<br>集中力向上の効果があります。<br>開発中に作業用BGMを流すかは、<br>賛否両論あると思いますが、<br>休憩時間に流すのは良いと思います。
+                        </p>
+                    </div>
+                    <div class="morebutton" class="inviewfadeInUp">check</div>
+                </div>
+            </div>
+        </div>
+        <div class="main3">
+        <div class="content5">
+           
+            <h1 id="top-title" class="inviewfadeInUp">まとめ</h1>
+            <p id="p1" class="inviewfadeInUp"><br>このように、開発への集中力を高められる方法を紹介しましたが、結局は、プログラミングに限らず、全てにおいて、やるかやらないかは自分の気持ち次第だと思います。目的意識はあるのだけど、どのように手をつければいいかわ分からない、どのようにすれば作業を効率化できるのか分からない。そんなときにこのページを見返して見てください。</p>
+            <img src="images/" alt="">
+        </div>
+
+        </div>
+
     </div>
 
 
-    <div class="content2">
-        <img class="img2" src="images/spring2017_desktop_1.png" alt="">
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <script>
+        $(function() {
+            $('.morebutton').prevAll().hide();
+            $('.morebutton').click(function() {
+                if ($(this).prevAll().is(':hidden')) {
+                    $(this).prevAll().fadeIn();
+                    $(this).text('close').addClass('btnclose');
+                } else {
+                    $(this).prevAll().fadeOut();
+                    $(this).text('check').removeClass('btnclose');
+                }
+            });
+        });
 
+        $('.inviewfadeInUp').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+            if (isInView) {
+                $(this).stop().addClass('fadeInUp');
+            } else {
+                $(this).stop().removeClass('fadeInUp');
+            }
+        });
 
-        <h1 class=top-title>楽しく開発をするには</h1>
-
-        <p>
-            <br>Life is Techで、<br>積極的に楽しく開発して、<br>良いアプリ、サイト、ゲームを作るには、<br>どんなものが必要で<br>何を心掛ければいいのか、<br>このサイトでは、それを紹介します。
-        </p>
-
-    </div>
-    <div class="container3">
-        <div class="box3">
-            <img class="img3" src="images/smartphoneIMGL0018_TP_V.jpg" alt="">
-            <h1>
-                周りに余計なものを置かない
-            </h1>
-            <p>周りにスマホなどがあると、見たくなっちゃいますよね？</p>
-        </div>
-        <div class="box3">
-            <img class="img3" src="images/PPG_anteli-kunatokei_TP_V.jpg" alt="">
-            <h1>
-                時間で区切る
-            </h1>
-            <p>時間ごとにノルマを決める</p>
-        </div>
-        <div class="box3">
-            <img class="img3" src="images/cc955eda960c7643f6ecc48d3b626b29_t.jpeg" alt="">
-            <h1>
-                前日に準備する
-            </h1>
-            <p>翌日は最初からやるだけでいいと、手を出しやすいですよね？</p>
-        </div>
-    </div>
-    <div class="container4">
-        <div class="box4">
-           <img class="img4" src="images/B102_oyatunojikan_TP_V.jpg" alt="">
-            <h1>おやつ</h1>
-        </div>
-        <div class="box4">
-            
-            <img class="img4" src="images/79e452da8d3a9ccaf899814db5de9b76_t.jpeg" alt="">
-            <h1>昼寝</h1>
-        </div>
-        <div class="box4">
-           <img class="img4" src="images/2df1d8f01ec93e1a55b0782d3ff0f3f6_t.jpeg" alt="">
-            <h1>音楽</h1>
-        </div>
-    </div>
-
-    </div>
-
-
+    </script>
 </body>
 
 </html>
