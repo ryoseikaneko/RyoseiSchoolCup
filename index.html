@@ -8,6 +8,17 @@
     <!-- js -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="jquery.inview.min.js"></script>
+    <script>
+        $(function() {
+            $('.inviewfadeInUp').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+                if (isInView) {
+                    $(this).stop().addClass('fadeInUp');
+                } else {
+                    $(this).stop().removeClass('fadeInUp');
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -180,16 +191,6 @@
                 } else {
                     $(this).prevAll().fadeOut();
                     $(this).text('check').removeClass('btnclose');
-                }
-            });
-        });
-
-        $(function() {
-            $('.inviewfadeInUp').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
-                if (isInView) {
-                    $(this).stop().addClass('fadeInUp');
-                } else {
-                    $(this).stop().removeClass('fadeInUp');
                 }
             });
         });
